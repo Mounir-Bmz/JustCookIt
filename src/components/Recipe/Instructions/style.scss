@@ -1,0 +1,23 @@
+@use 'src/styles/variables';
+
+.steps {
+  background-color: #F2F2F2;
+  padding: variables.$gutter;
+  border-radius: variables.$gutter variables.$gutter 0 0;
+}
+
+.step {
+  padding-left: 2em;
+  margin: variables.$halfGutter 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    background: variables.$color;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    width: 1.1em;
+    position: absolute;
+  }
+}
