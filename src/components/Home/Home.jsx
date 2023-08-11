@@ -14,7 +14,7 @@ const Home = () => {
     <Page>
       <AppHeader />
       <Content
-        title="Les recettes oRecipes"
+        title="Les recettes JustCookIt"
         text={welcomeMessage}
         recipes={recipes}
       />

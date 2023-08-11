@@ -33,10 +33,6 @@ const authMiddleware = (store) => (next) => (action) => {
         })
         .catch((error) => {
           console.log(error);
-
-          // TODO afficher un message à l'utilisateur : prévoir un composant pour
-          // le message, avec un affichage conditionnel. Il faudrait ajouter un
-          // emplacement dans le state, booléen isAuthError par exemple.
         });
       break;
 

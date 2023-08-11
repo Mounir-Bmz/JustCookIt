@@ -26,11 +26,11 @@ export const getNextId = (dataArray) => {
 export const getSubtitle = (recipesCount) => {
   switch (recipesCount) {
     case 0:
-      return 'Bienvenue sur oRecipes. Reviens bientôt pour découvrir nos recettes';
+      return 'Bienvenue sur JustCookIt. Reviens bientôt pour découvrir nos recettes';
     case 1:
-      return 'Bienvenue sur oRecipes, découvre notre recette';
+      return 'Bienvenue sur JustCookIt, découvre notre recette';
 
     default:
-      return `Bienvenue sur oRecipes, découvre nos ${recipesCount} recettes`;
+      return `Bienvenue sur JustCookIt, découvre nos ${recipesCount} recettes`;
   }
 };
